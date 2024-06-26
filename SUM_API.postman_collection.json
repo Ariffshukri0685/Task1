@@ -1,0 +1,122 @@
+{
+	"info": {
+		"_postman_id": "d979d526-ed98-43b8-99f9-cf6759a6f12e",
+		"name": "SUM_API",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json",
+		"_exporter_id": "36498787"
+	},
+	"item": [
+		{
+			"name": "/sum?num1=98&num2=8",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "localhost:3030/sum?num1=98&num2=56",
+					"host": [
+						"localhost"
+					],
+					"port": "3030",
+					"path": [
+						"sum"
+					],
+					"query": [
+						{
+							"key": "num1",
+							"value": "98"
+						},
+						{
+							"key": "num2",
+							"value": "56"
+						}
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "/sum?num1=n&num2=k",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "localhost:3030/sum?num1=n&num2=k",
+					"host": [
+						"localhost"
+					],
+					"port": "3030",
+					"path": [
+						"sum"
+					],
+					"query": [
+						{
+							"key": "num1",
+							"value": "n"
+						},
+						{
+							"key": "num2",
+							"value": "k"
+						}
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "/sum?num1=n&num2=5",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "localhost:3030/sum?num1=n&num2=5",
+					"host": [
+						"localhost"
+					],
+					"port": "3030",
+					"path": [
+						"sum"
+					],
+					"query": [
+						{
+							"key": "num1",
+							"value": "n"
+						},
+						{
+							"key": "num2",
+							"value": "5"
+						}
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "/sum?num1=4&num2=h",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "localhost:3030/sum?num1=4&num2=h",
+					"host": [
+						"localhost"
+					],
+					"port": "3030",
+					"path": [
+						"sum"
+					],
+					"query": [
+						{
+							"key": "num1",
+							"value": "4"
+						},
+						{
+							"key": "num2",
+							"value": "h"
+						}
+					]
+				}
+			},
+			"response": []
+		}
+	]
+}
